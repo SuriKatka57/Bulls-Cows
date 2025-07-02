@@ -22,7 +22,6 @@ def generate_secret_number():
     return "".join(digits[:4])
 
 secret_number = generate_secret_number()
-print(secret_number)
 
 #checking whether the input is a digit, doesn't begin with 0, it's exactly 4 digits, doesn't contain duplicates
 
